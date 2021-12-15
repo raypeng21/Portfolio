@@ -1,6 +1,6 @@
 import './intro.scss'
 import {useEffect, useRef } from 'react'
-import { Card, CardBody} from 'reactstrap';
+// import { Card, CardBody} from 'reactstrap';
 
 import { init } from 'ityped'
 
