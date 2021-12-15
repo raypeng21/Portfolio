@@ -34,7 +34,7 @@ export const featuredPortfolio = [
       id: 3,
       title: "Mock Interview",
       img:
-        "https://imgur.com/1JNX8Pw.png",
+        "https://imgur.com/mFrMjJC.png",
         link: "",
     },
   ];
@@ -52,9 +52,15 @@ export const featuredPortfolio = [
   export const designPortfolio = [
     {
       id: 1,
-      title: "Logo Design",
+      title: "Industrial Design",
       img:
         "https://imgur.com/e30MOEA.png",
+    },
+    {
+      id: 2,
+      title: "Logo Design",
+      img:
+        "https://imgur.com/FU78Feq.jpg",
     },
   ];
   
@@ -63,25 +69,19 @@ export const featuredPortfolio = [
       id: 1,
       title: "Illustration Drawing",
       img:
-        "https://i.imgur.com/vyxSVn6.jpg",
+        "https://imgur.com/Ni9NcH1.jpg",
     },
     {
       id: 2,
       title: "Illustration Drawing",
       img:
-        "https://imgur.com/q71lHc4.jpg",
+        "https://imgur.com/e3P6W3M.jpg",
     },
     {
       id: 3,
       title: "Illustration Drawing",
       img:
-        "https://imgur.com/UL2gwXH.jpg",
-    },
-    {
-      id: 4,
-      title: "Illustration Drawing",
-      img:
-        "https://imgur.com/rCxqAoh.jpg",
+        "https://imgur.com/uWFZQDi.jpg",
     },
   ];
 

@@ -15,12 +15,12 @@ export default function Testimonials() {
         {
           id: 2,
           name: "Pamela Ng",
-          title: "Director of Rayls's",
+          title: "Director of Rayla's",
           img:
             "https://imgur.com/m4Y7cM2.jpg",
           icon: "assets/youtube.png",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+            "Ray is exceeded our expectations on process, design and customer service. Our beautiful, easy to navigate website came in on time and on budget. Ray is not only talented, but great human beings which makes working with him a delight. We look forward to collaborating again. ",
           featured: true,
         },
       ];
