@@ -13,7 +13,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     </div>
                     <div className="itemcontainer">
                         {/* <PersonIcon/> */}
-                        <span>ray.peng@usask.ca</span>
+                        <span>raypeng21@gmail.com</span>
                     </div>
                 </div>
 

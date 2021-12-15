@@ -1,5 +1,7 @@
 import './intro.scss'
 import {useEffect, useRef } from 'react'
+import { Card, CardBody} from 'reactstrap';
+
 import { init } from 'ityped'
 
 export default function Intro() {
@@ -24,6 +26,7 @@ export default function Intro() {
 
 
                 </div>
+
 
             </div>
 

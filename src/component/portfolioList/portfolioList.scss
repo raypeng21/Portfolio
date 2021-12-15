@@ -4,14 +4,16 @@
 
 
 .portfolioList{
-    font-size: 12px;
+    font-size: 20px;
+    color: white;
     margin: 5px;
     padding: 0.7em;
     border-radius: 10px;
     cursor: pointer;
+    overflow: hidden;
 
     &.active{
         background-color: $mainColor;
-        color: white;
+        color: #e2a177;
     }
 }

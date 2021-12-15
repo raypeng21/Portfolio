@@ -1,5 +1,8 @@
+@import "../../global.scss";
+
+
 .work{
-    background-color:lightseagreen;
+    background-color:$mainColor;
     display: flex;
     align-content: center;
     justify-content: center;

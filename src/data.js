@@ -6,6 +6,13 @@ export const featuredPortfolio = [
         "https://d1ralsognjng37.cloudfront.net/7b425a81-1c2f-4790-a1c7-995118eaf85d.jpeg",
         link: "https://www.raylacafe.ca/",
     },
+    {
+      id: 2,
+      title: "Real Time Forum Project",
+      img:
+        "https://imgur.com/86pQGk4.png",
+        link: "",
+    },
   ];
   
   export const webPortfolio = [
@@ -23,15 +30,21 @@ export const featuredPortfolio = [
         "https://imgur.com/86pQGk4.png",
         link: "",
     },
-
+    {
+      id: 3,
+      title: "Mock Interview",
+      img:
+        "https://imgur.com/1JNX8Pw.png",
+        link: "",
+    },
   ];
   
-  export const mobilePortfolio = [
+  export const uiPortfolio = [
     {
       id: 1,
-      title: "Mobile Social Media App",
+      title: "Point of Sales System UI design",
       img:
-        "https://onedrive.live.com/?cid=D0109E944200A97D&id=D0109E944200A97D%219474&parId=D0109E944200A97D%219469&o=OneUp",
+        "https://imgur.com/CQMLbOW.png",
     },
 
   ];
