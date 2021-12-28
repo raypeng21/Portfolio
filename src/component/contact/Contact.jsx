@@ -26,7 +26,6 @@ export default function Contact() {
     return (
         <div className = "contact" id = "contact">
 
-            
             <div className="right">
                 <h2>Contact Me!</h2>
                 <form onSubmit={sendEmail}>
@@ -39,6 +38,9 @@ export default function Contact() {
                     {message  && <span>Thanks， I'will reply ASAP.</span>}
                 </form>
             </div>
+
+
+
         </div>
     )
 }

@@ -1,0 +1,63 @@
+@import "../../global.scss";
+
+
+
+.Opening{
+    overflow: hidden;
+    background-color:$mainColor;
+    .bgContainer{
+        height: 100%;
+        overflow: hidden;
+
+        img{
+            height: 100%;
+        }
+    }
+
+
+    .ball1{
+        img{
+            position: absolute;
+            width: 10%;
+            bottom: 100px;
+            left: 500px;
+        }
+    }
+
+    .ball2{
+        img{
+            position: absolute;
+            width: 15%;
+
+            right: 480px;
+            bottom: 300px;
+        }
+    }
+
+    .ball3{
+        img{
+            position: absolute;
+            width: 10%;
+
+            top: 150px;
+            left: 500px;
+        }
+    }
+
+    .raypeng{
+        img{
+            position: absolute;
+            width: 9%;
+
+            top: 180px;
+            left: 850px;
+        }
+    }
+
+    .slog{
+        img{
+            position: absolute;
+            width: 15%;
+
+            bottom: 380px;
+     

@@ -17,6 +17,7 @@ export default function Intro() {
         });
     },[])
     return (
+        
         <div className='intro' id = "intro">
 
             <div className="left">
@@ -39,8 +40,8 @@ export default function Intro() {
 
 
 
-                <a href="#portfolio">
-                    <img src="assets/down.png" alt="" />
+                <a href="#intro">
+                    <img src="assets/rocket.png" alt="" />
                 </a>
 
             </div>
