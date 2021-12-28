@@ -10,7 +10,7 @@ export default function Works() {
         {
           id: "1",
           icon: "./assets/mobile.png",
-          title: "Web Design",
+          title: "JavaScript/React",
           desc:
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
           img:

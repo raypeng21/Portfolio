@@ -1,6 +1,8 @@
 import './intro.scss'
 import {useEffect, useRef } from 'react'
 // import { Card, CardBody} from 'reactstrap';
+import { motion } from 'framer-motion';
+
 
 import { init } from 'ityped'
 
@@ -19,6 +21,18 @@ export default function Intro() {
     return (
         
         <div className='intro' id = "intro">
+            <div className="rocket">
+                <motion.img src="assets/plants.png" alt="" 
+                  whileTap={{scale:0.9}} 
+                  whileHover={{scale:1.1}} 
+                />
+            </div>
+            <div className="star">
+                <motion.img src="assets/star2.png" alt="" 
+                  whileTap={{scale:0.9}} 
+                  whileHover={{scale:1.1}} 
+                />
+            </div>
 
             <div className="left">
                 <div className="imgContainer">
@@ -39,10 +53,7 @@ export default function Intro() {
                 </div>
 
 
-
-                <a href="#intro">
-                    <img src="assets/rocket.png" alt="" />
-                </a>
+                
 
             </div>
 

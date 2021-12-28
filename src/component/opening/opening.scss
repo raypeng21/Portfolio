@@ -47,7 +47,7 @@
     .raypeng{
         img{
             position: absolute;
-            width: 9%;
+            width: 15%;
 
             top: 180px;
             left: 850px;
@@ -60,4 +60,24 @@
             width: 15%;
 
             bottom: 380px;
-     
+            left: 550px;
+        }
+    }
+
+    a{
+        position: absolute;
+        bottom:10px;
+        left: 800px;
+        img{
+            width:50px;
+            animation: arrowBlink 2s infinite;
+        }
+
+        @keyframes arrowBlink {
+            100%{
+                opacity: 0;
+            }
+            
+        }
+    }
+}

@@ -1,7 +1,7 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "Bussiness",
+      title: "Rayla Cafe",
       img:
         "https://d1ralsognjng37.cloudfront.net/7b425a81-1c2f-4790-a1c7-995118eaf85d.jpeg",
         link: "https://www.raylacafe.ca/",
@@ -18,7 +18,6 @@ export const featuredPortfolio = [
       title: "Real Time Forum Project",
       img:
         "https://imgur.com/86pQGk4.png",
-        link: "",
     },
   ];
   
@@ -42,14 +41,12 @@ export const featuredPortfolio = [
       title: "Real Time Forum Project",
       img:
         "https://imgur.com/86pQGk4.png",
-        link: "",
     },
     {
       id: 4,
       title: "Mock Interview",
       img:
         "https://imgur.com/mFrMjJC.png",
-        link: "",
     },
   ];
   

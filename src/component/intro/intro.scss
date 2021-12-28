@@ -6,6 +6,25 @@
     background-color: $mainColor;
     display: flex;
 
+    .rocket{
+        img{
+            position: absolute;
+            width: 20%;
+            left: 50px;
+
+        }
+    }
+
+
+    
+    .star{
+        img{
+            position: absolute;
+            width: 50%;
+            right: 100px;
+        }
+    }
+
     .left{
         flex: 0.5;
         overflow: hidden;
@@ -13,8 +32,8 @@
         .imgContainer{
             overflow: hidden;
 
-            width: 700px;
-            height: 700px;
+            width: 500px;
+            height: 800px;
             display: flex;
             align-items: center;
             float: right;
@@ -52,7 +71,7 @@
                 font-size: 30px;
                 span{
                     font-size: inherit;
-                    color: #e2a177;
+                    color: #938bb3;
                 }
 
 

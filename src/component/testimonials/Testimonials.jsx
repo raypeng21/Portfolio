@@ -4,13 +4,13 @@ export default function Testimonials() {
     const data = [
         {
           id: 1,
-          name: "Tom Durden",
-          title: "Senior Developer",
+          name: "Cai Sheng",
+          title: "Senior Geotechnical Engineer",
           img:
-            "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "https://www.bai-jia-song.com/assets/BJS_logo.png",
           icon: "assets/twitter.png",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+            "As a foundation engineering company founded eight years ago, we have always neglected corporate image and publicity. With Ray's work, our enterprise has a new look and official website. We really appreciate Ray's precise positioning and meticulous design style. ",
         },
         {
           id: 2,
@@ -33,10 +33,8 @@ export default function Testimonials() {
                     
                 <div className={d.featured ? "card featured" : "card"}>
                     <div className="top">
-                        <img src="assets/right-arrow.png" className = "left" alt="" />
                         <img 
                         src={d.img} className='user' alt="" />
-                        <img src={d.icon} className='right' alt="" />
 
                     </div>
                     <div className="center">
