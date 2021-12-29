@@ -12,6 +12,10 @@
         font-size: 50px;
         overflow: hidden;
         color: white;
+        @media(max-width:768px){
+            font-size: 25px;
+      
+        }
 
     }
 
@@ -58,10 +62,16 @@
             position: relative;
             transition: all 0.5s ease ;
             cursor: pointer;
-
+            @media(max-width:768px){
+                font-size: 8px;
+                width: 200px;
+                height: 100px;
+            }
             h3{
                 position: absolute;
                 font-size: 15px;
+                justify-content: center;
+                align-items: center;
             }
             
 

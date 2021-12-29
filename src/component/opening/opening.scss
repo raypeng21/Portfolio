@@ -11,6 +11,10 @@
 
         img{
             height: 100%;
+            
+            @media(max-width:768px){
+                height: 70%;
+            }
         }
     }
 
@@ -21,6 +25,13 @@
             width: 10%;
             bottom: 100px;
             left: 500px;
+            
+            @media(max-width:768px){
+                position: absolute;
+                width: 20%;
+                bottom: 80px;
+                left: 50px;
+                        }
         }
     }
 
@@ -31,6 +42,13 @@
 
             right: 480px;
             bottom: 300px;
+
+            @media(max-width:768px){
+                position: absolute;
+                width: 50%;
+                top: 300px;
+                right: 90px;
+                        }
         }
     }
 
@@ -41,6 +59,13 @@
 
             top: 150px;
             left: 500px;
+
+            @media(max-width:768px){
+                position: absolute;
+                width: 20%;
+                top: 50px;
+                left: 100px;
+                        }
         }
     }
 
@@ -51,6 +76,12 @@
 
             top: 180px;
             left: 850px;
+
+            @media(max-width:768px){
+                width: 50%;
+                top: 180px;
+                left: 50px;
+                        }
         }
     }
 
@@ -68,6 +99,12 @@
         position: absolute;
         bottom:10px;
         left: 800px;
+
+        
+        @media(max-width:768px){
+            bottom:10px;
+            left: 170px;
+                    }
         img{
             width:50px;
             animation: arrowBlink 2s infinite;

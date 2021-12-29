@@ -5,12 +5,20 @@
 .intro{
     background-color: $mainColor;
     display: flex;
+                
+    @media(max-width:768px){
+        flex-direction: column;
+    }
 
     .rocket{
         img{
             position: absolute;
             width: 20%;
             left: 50px;
+            @media(max-width:768px){
+                left: 50px;
+          
+            }
 
         }
     }
@@ -22,6 +30,12 @@
             position: absolute;
             width: 50%;
             right: 100px;
+
+
+            @media(max-width:768px){
+                left: 1px;
+          
+            }
         }
     }
 
@@ -37,6 +51,9 @@
             display: flex;
             align-items: center;
             float: right;
+            @media(max-width:768px){
+                width: 250px;
+                height: 280px;            }
             
             img{
                 width: 90%;
@@ -68,12 +85,18 @@
                 font-size: 35px;
             }
             h3{
+                
                 font-size: 30px;
                 span{
                     font-size: inherit;
                     color: #938bb3;
                 }
 
+                
+            @media(max-width:768px){
+                font-size: 18px;
+          
+            }
 
                 .ityped-cursor {
                     font-size: 2.2rem;

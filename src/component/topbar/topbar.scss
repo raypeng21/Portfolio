@@ -11,12 +11,17 @@
     transition:  all 1s ease;
 
 
+
     .wrapper{
         padding: 10px 30px;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
+        @media(max-width:768px){
+        padding: 10px 10px;
+
+        }
 
             .left{
                 display: flex;
@@ -28,6 +33,12 @@
                 text-decoration: none;
                 color: inherit;
                 margin-right: 40px;
+
+                @media(max-width:768px){
+                    font-size: 20px;
+                    margin-right: 5px;
+
+                    }
             }
 
             .itemcontainer{
@@ -35,9 +46,17 @@
                 align-items: center;
                 margin-left: 30px;
 
+                @media(max-width:768px){
+                    font-size: 10px;
+                    margin-left: 5px;
+                    }
                 span{
                     font-size: 15px;
                     font-weight:500 ;
+
+                    @media(max-width:768px){
+                        font-size: 12px;
+                        }
                 }
 
             }
@@ -53,6 +72,8 @@
                 flex-direction: column;
                 justify-content: space-between;
                 cursor: pointer;
+
+
             }
 
             span{
