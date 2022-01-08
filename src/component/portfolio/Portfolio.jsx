@@ -29,7 +29,7 @@ export default function Portfolio() {
         },
         {
           id: "design",
-          title: "Design",
+          title: "Graphic Design",
         },
         {
           id: "content",

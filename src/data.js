@@ -19,6 +19,27 @@ export const featuredPortfolio = [
       img:
         "https://imgur.com/86pQGk4.png",
     },
+    {
+      id: 4,
+      title: "Rayla Online Store",
+      img:
+        "https://imgur.com/Vm1Owi8.png",
+        link: "http://www.rayla.ca/",
+
+    },
+
+    {
+      id: 5,
+      title: "Social Media Graphic Design",
+      img:
+        "https://imgur.com/0EbiYHu.png",
+    },
+    {
+      id: 6,
+      title: "Menu Design",
+      img:
+        "https://imgur.com/eRX6ZUN.jpg",
+    },
   ];
   
   export const webPortfolio = [
@@ -44,6 +65,14 @@ export const featuredPortfolio = [
     },
     {
       id: 4,
+      title: "Rayla Online Store",
+      img:
+        "https://imgur.com/Vm1Owi8.png",
+        link: "http://www.rayla.ca/",
+
+    },
+    {
+      id: 5,
       title: "Mock Interview",
       img:
         "https://imgur.com/mFrMjJC.png",
@@ -63,15 +92,33 @@ export const featuredPortfolio = [
   export const designPortfolio = [
     {
       id: 1,
-      title: "Industrial Design",
+      title: "Social Media Graphic Design",
       img:
-        "https://imgur.com/e30MOEA.png",
+        "https://imgur.com/0EbiYHu.png",
     },
     {
       id: 2,
       title: "Logo Design",
       img:
         "https://imgur.com/FU78Feq.jpg",
+    },
+    {
+      id: 2,
+      title: "Coupon Design",
+      img:
+        "https://imgur.com/DvCpyCx.png",
+    },
+    {
+      id: 2,
+      title: "Menu Design",
+      img:
+        "https://imgur.com/eRX6ZUN.jpg",
+    },
+    {
+      id: 5,
+      title: "Industrial Design",
+      img:
+        "https://imgur.com/e30MOEA.png",
     },
   ];
   
