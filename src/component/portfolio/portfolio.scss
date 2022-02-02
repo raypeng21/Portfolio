@@ -91,14 +91,14 @@
             }
             @media (min-width: 500px) and (max-width: 767px){
                 font-size: 3px;
-                width: 120px;
+                width: 250px;
                 height: 60px;
             }
-            // @media (max-widt: 499px){
-            //     font-size: 4px;
-            //     width: 120px;
-            //     height: 60px;
-            // }
+            @media (max-width: 499px){
+                font-size: 3px;
+                width: 250px;
+                height: 60px;
+            }
 
             // @media (min-height: 800px) and (max-height: 1080px){
             //     font-size: 8px;
@@ -125,6 +125,26 @@
                 font-size: 15px;
                 justify-content: center;
                 align-items: center;
+                @media (min-width: 1201px) and (max-width: 1680px){
+                    font-size: 12px;
+        
+                }
+                @media (min-width: 992px) and (max-width: 1200px){
+                    font-size: 10px;   
+                }
+                @media (min-width: 768px) and (max-width: 991px){
+                    font-size: 10px;
+     
+                }
+                @media (min-width: 500px) and (max-width: 767px){
+                    font-size: 9px;
+
+                }
+                @media (max-width: 499px){
+                    font-size: 9px;
+
+                }
+
             }
             
 
