@@ -1,44 +1,46 @@
 export const featuredPortfolio = [
     {
       id: 1,
+      title: "Panda Social",
+      img:
+        "https://imgur.com/qugEpYm.png",
+        link: "https://github.com/raypeng21/Panda_Social",
+    },
+    {
+      id: 2,
+      title: "ShowNow E-Commerce",
+      img:
+        "https://imgur.com/6zEbSJD.png",
+        link: "https://e-commerce-project-b26e4.web.app/",
+    },
+    {
+      id: 3,
       title: "Rayla Cafe",
       img:
         "https://d1ralsognjng37.cloudfront.net/7b425a81-1c2f-4790-a1c7-995118eaf85d.jpeg",
         link: "https://www.raylacafe.ca/",
     },
     {
-      id: 2,
+      id: 4,
       title: "BJS Foundation Engineering",
       img:
         "https://imgur.com/DP7X1H8.png",
         link: "http://www.bai-jia-song.com/",
-    },
-    {
-      id: 3,
-      title: "Real Time Forum Project",
-      img:
-        "https://imgur.com/86pQGk4.png",
-    },
-    {
-      id: 4,
-      title: "Rayla Online Store",
-      img:
-        "https://imgur.com/Vm1Owi8.png",
-        link: "http://www.rayla.ca/",
 
     },
 
     {
       id: 5,
-      title: "Social Media Graphic Design",
+      title: "Rayla Online Store",
       img:
-        "https://imgur.com/0EbiYHu.png",
+        "https://imgur.com/Vm1Owi8.png",
+        link: "http://www.rayla.ca/",
     },
     {
       id: 6,
-      title: "Menu Design",
+      title: "Real Time Forum Project",
       img:
-        "https://imgur.com/eRX6ZUN.jpg",
+        "https://imgur.com/86pQGk4.png",
     },
   ];
   
@@ -73,10 +75,19 @@ export const featuredPortfolio = [
     },
     {
       id: 5,
-      title: "Mock Interview",
+      title: "Panda Social",
       img:
-        "https://imgur.com/mFrMjJC.png",
+        "https://imgur.com/qugEpYm.png",
+        link: "https://github.com/raypeng21/Panda_Social",
     },
+    {
+      id: 6,
+      title: "ShowNow E-Commerce",
+      img:
+        "https://imgur.com/6zEbSJD.png",
+        link: "https://e-commerce-project-b26e4.web.app/",
+    },
+
   ];
   
   export const uiPortfolio = [
@@ -103,13 +114,13 @@ export const featuredPortfolio = [
         "https://imgur.com/FU78Feq.jpg",
     },
     {
-      id: 2,
+      id: 3,
       title: "Coupon Design",
       img:
         "https://imgur.com/DvCpyCx.png",
     },
     {
-      id: 2,
+      id: 4,
       title: "Menu Design",
       img:
         "https://imgur.com/eRX6ZUN.jpg",

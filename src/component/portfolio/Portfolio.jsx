@@ -32,7 +32,7 @@ export default function Portfolio() {
           title: "Graphic Design",
         },
         {
-          id: "content",
+          id: "Content",
           title: "Content",
         },
       ];
