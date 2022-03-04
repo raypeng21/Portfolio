@@ -24,13 +24,12 @@ export default function Intro() {
             <div className="rocket">
                 <motion.img src="assets/plants.png" alt="" 
                   whileTap={{scale:0.9}} 
-                  whileHover={{scale:1.1}} 
+                  whileHover={{scale:1.05}} 
                 />
             </div>
             <div className="star">
                 <motion.img src="assets/star2.png" alt="" 
                   whileTap={{scale:0.9}} 
-                  whileHover={{scale:1.1}} 
                 />
             </div>
 

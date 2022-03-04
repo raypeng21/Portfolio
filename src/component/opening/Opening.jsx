@@ -9,7 +9,6 @@ export const Opening = () => {
     <div className="Opening" id='home'>
         <div className="bgContainer">
           <motion.img src="assets/stars.png" alt=""
-          whileHover={{scale:1.05}} 
           initial={{opacity:0, x:-100}}
           animate = {{opacity:1, x:0, transition:{duration:1}}}
           />
@@ -55,7 +54,7 @@ export const Opening = () => {
         <div className="raypeng">
 
         <motion.img src="assets/name.png" alt=""
-          whileHover={{scale:1.2}} 
+          whileHover={{scale:1.05}} 
           whileTap={{scale:0.9}} 
 
         />
@@ -65,7 +64,7 @@ export const Opening = () => {
         <div className="slog">
 
         <motion.img src="assets/slog.png" alt=""
-          whileHover={{scale:1.8}} 
+          whileHover={{scale:1.05}} 
           whileTap={{scale:0.9}} 
 
         />
