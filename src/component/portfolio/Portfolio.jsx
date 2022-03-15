@@ -32,7 +32,7 @@ export default function Portfolio() {
           title: "Graphic Design",
         },
         {
-          id: "Content",
+          id: "content",
           title: "Content",
         },
       ];
@@ -54,8 +54,10 @@ export default function Portfolio() {
           case "content":
             setData(contentPortfolio);
             break;
+
           default:
             setData(featuredPortfolio);
+
         }
       }, [selected]);
 
