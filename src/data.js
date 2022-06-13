@@ -31,16 +31,19 @@ export const featuredPortfolio = [
 
     {
       id: 5,
+      title: "KUSOMA Online Book Store",
+      img:
+        "https://imgur.com/nD8d26x.png",
+        link: "https://ray-peng.websitepro.hosting/",
+
+    },
+    {
+      id: 6,
       title: "Rayla Online Store",
       img:
         "https://imgur.com/Vm1Owi8.png",
         link: "http://www.rayla.ca/",
-    },
-    {
-      id: 6,
-      title: "Real Time Forum Project",
-      img:
-        "https://imgur.com/86pQGk4.png",
+
     },
   ];
   
@@ -61,9 +64,11 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "Real Time Forum Project",
+      title: "KUSOMA Online Book Store",
       img:
-        "https://imgur.com/86pQGk4.png",
+        "https://imgur.com/nD8d26x.png",
+        link: "https://ray-peng.websitepro.hosting/",
+
     },
     {
       id: 4,
@@ -129,7 +134,7 @@ export const featuredPortfolio = [
       id: 5,
       title: "Industrial Design",
       img:
-        "https://imgur.com/e30MOEA.png",
+        "https://imgur.com/ptOdAjw.png",
     },
   ];
   
