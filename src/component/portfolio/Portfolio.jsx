@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import PortfolioList from '../portfolioList/PortfolioList'
 import'./portfolio.scss'
 import {
-    featuredPortfolio,
+    // featuredPortfolio,
     webPortfolio,
-    uiPortfolio,
+    // uiPortfolio,
     designPortfolio,
     contentPortfolio,
   } from "../../data"
@@ -56,7 +56,7 @@ export default function Portfolio() {
             break;
 
           default:
-            setData(featuredPortfolio);
+            setData(webPortfolio);
 
         }
       }, [selected]);

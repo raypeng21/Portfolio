@@ -95,15 +95,15 @@ export const featuredPortfolio = [
 
   ];
   
-  export const uiPortfolio = [
-    {
-      id: 1,
-      title: "Point of Sales System UI design",
-      img:
-        "https://imgur.com/CQMLbOW.png",
-    },
+  // export const uiPortfolio = [
+  //   {
+  //     id: 1,
+  //     title: "Point of Sales System UI design",
+  //     img:
+  //       "https://imgur.com/CQMLbOW.png",
+  //   },
 
-  ];
+  // ];
   
   export const designPortfolio = [
     {
