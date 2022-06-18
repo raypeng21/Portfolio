@@ -2,7 +2,7 @@ import Topbar from "./component/topbar/Topbar";
 import Opening from "./component/opening/Opening";
 import Intro from "./component/intro/Intro";
 import Portfolio from "./component/portfolio/Portfolio";
-import Testimonials from "./component/testimonials/Testimonials";
+// import Testimonials from "./component/testimonials/Testimonials";
 import Contact from "./component/contact/Contact";
 import Menu from "./component/menu/Menu";
 import "./app.scss";
