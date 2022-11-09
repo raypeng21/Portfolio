@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './intro.scss'
 import {useEffect, useRef } from 'react'
 // import { Card, CardBody} from 'reactstrap';
@@ -48,7 +49,8 @@ export default function Intro() {
                 <div className="wrapper">
                     <h2>Hi there, I'am</h2>
                     <h1>Ray Peng</h1>
-                    <h3>Freelance <span ref ={textRef}></span></h3>
+                    <h3>Software Engineer at <a className='writeway' href='https://writeway.com/'>Writeway</a> </h3>
+                    <h3>& Freelance <span ref ={textRef}></span></h3>
                 </div>
 
 

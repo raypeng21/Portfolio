@@ -3,6 +3,12 @@
 
 
 .Opening{
+
+    .meteor_shower{
+        width: 100vw;
+        height: 100vh;
+        margin-top: -100px;
+    }
     overflow: hidden;
     background-color:$mainColor;
     .bgContainer{

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
 // import styled from 'styled-components';
 import { motion } from 'framer-motion';
@@ -7,6 +8,7 @@ import "./opening.scss"
 export const Opening = () => {
   return (
     <div className="Opening" id='home'>
+      <iframe className='meteor_shower' width="100%" height="100%" frameborder="0" scrolling="no" src="https://editor.p5js.org/raypeng21/full/LIRx72yDI"></iframe>
         <div className="bgContainer">
           <motion.img src="assets/stars.png" alt=""
           initial={{opacity:0, x:-100}}
@@ -71,7 +73,7 @@ export const Opening = () => {
 
         </div>
 
-        <a href="#intro">
+        <a className='smallRocket' href="#intro">
                     <img src="assets/rocket.png" alt="" />
                 </a>
 

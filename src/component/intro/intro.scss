@@ -27,8 +27,9 @@
     
     .star{
         img{
+            right: 50px;
             position: absolute;
-            width: 50%;
+            width: 60%;
             right: 100px;
 
 
@@ -67,6 +68,7 @@
     .right{
         flex: 0.5;
         overflow: hidden;
+        z-index: 100;
 
         .wrapper{
             width: 100%;
@@ -76,7 +78,23 @@
             flex-direction: column;
             justify-content: center;
             color: white;
+.writeway{
+    text-decoration: none;
+    color: burlywood;
 
+
+    &:hover{
+        text-decoration: none;
+        color:cornflowerblue;
+
+
+    }
+    &:visited{
+        color:cornflowerblue;
+        text-decoration: none;
+
+    }
+}
             h1{
                 font-size:50px;
                 margin: 10px 0;
@@ -127,7 +145,7 @@
 
             }
         }
-        a{
+        .smallRocket{
             position: absolute;
             bottom:10px;
             img{
